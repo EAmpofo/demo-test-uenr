@@ -1,0 +1,9 @@
+.cardtitle{
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem 0;
+}
