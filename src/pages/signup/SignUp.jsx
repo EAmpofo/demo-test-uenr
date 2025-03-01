@@ -110,18 +110,7 @@ function SignUp() {
             value={input.firstname}
           />
           {capsLock && <span className="caps">WARNING! Caps lock is ON</span>}
-          <label htmlFor="lastname">Lastname:</label>
-          <Input
-            onKeyUp={checkCapsLockOn}
-            id="lastname"
-            variant="standard"
-            className="inputField"
-            disableUnderline={true}
-            autoComplete="off"
-            required={true}
-            onChange={handleInputChange}
-            value={input.lastname}
-          />
+          
 
           <label htmlFor="username">Username:</label>
           <Input
